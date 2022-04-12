@@ -17,12 +17,13 @@
 		2953AFA32803FFEB00396B74 /* corsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953AFA22803FFEB00396B74 /* corsoTests.swift */; };
 		2953AFAD2803FFEB00396B74 /* corsoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953AFAC2803FFEB00396B74 /* corsoUITests.swift */; };
 		2953AFAF2803FFEB00396B74 /* corsoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953AFAE2803FFEB00396B74 /* corsoUITestsLaunchTests.swift */; };
-		296AF1B22804AD8A00BF9574 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1B12804AD8A00BF9574 /* TwitterAPI.swift */; };
-		296AF1B32804AD8A00BF9574 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1B12804AD8A00BF9574 /* TwitterAPI.swift */; };
-		296AF1B42804AD8A00BF9574 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1B12804AD8A00BF9574 /* TwitterAPI.swift */; };
-		2999A8602804029100372676 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2999A85F2804029100372676 /* GoogleService-Info-4.plist */; };
-		2999A8612804029100372676 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2999A85F2804029100372676 /* GoogleService-Info-4.plist */; };
-		2999A8622804029100372676 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2999A85F2804029100372676 /* GoogleService-Info-4.plist */; };
+		296AF1B92804C88100BF9574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 296AF1B82804C88100BF9574 /* GoogleService-Info.plist */; };
+		296AF1C72804EEFA00BF9574 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1C62804EEFA00BF9574 /* NewsFeed.swift */; };
+		296AF1C82804EEFA00BF9574 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1C62804EEFA00BF9574 /* NewsFeed.swift */; };
+		296AF1C92804EEFA00BF9574 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1C62804EEFA00BF9574 /* NewsFeed.swift */; };
+		296AF1CB2804EF9A00BF9574 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1CA2804EF9A00BF9574 /* Article.swift */; };
+		296AF1CC2804EF9A00BF9574 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1CA2804EF9A00BF9574 /* Article.swift */; };
+		296AF1CD2804EF9A00BF9574 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AF1CA2804EF9A00BF9574 /* Article.swift */; };
 		9EE262065FF6F12F97192BBF /* Pods_corso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0620A28DF938D31730BCFB /* Pods_corso.framework */; };
 		B254238043CDB959AB37EB03 /* Pods_corsoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1669D735F72E1EBEC6F168D /* Pods_corsoTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,8 +60,9 @@
 		2953AFA82803FFEB00396B74 /* corsoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corsoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2953AFAC2803FFEB00396B74 /* corsoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corsoUITests.swift; sourceTree = "<group>"; };
 		2953AFAE2803FFEB00396B74 /* corsoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corsoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		296AF1B12804AD8A00BF9574 /* TwitterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPI.swift; sourceTree = "<group>"; };
-		2999A85F2804029100372676 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-4.plist"; path = "../../Downloads/GoogleService-Info-4.plist"; sourceTree = "<group>"; };
+		296AF1B82804C88100BF9574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		296AF1C62804EEFA00BF9574 /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		296AF1CA2804EF9A00BF9574 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		3DFD9132A0546EB8576F0FD6 /* Pods-corso-corsoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corso-corsoUITests.release.xcconfig"; path = "Target Support Files/Pods-corso-corsoUITests/Pods-corso-corsoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4EA36BF5D5232BDEB2CD74BB /* Pods-corso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corso.release.xcconfig"; path = "Target Support Files/Pods-corso/Pods-corso.release.xcconfig"; sourceTree = "<group>"; };
 		80FA691D2DE673E270D14012 /* Pods-corso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corso.debug.xcconfig"; path = "Target Support Files/Pods-corso/Pods-corso.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 		2953AF7F2803FFEA00396B74 = {
 			isa = PBXGroup;
 			children = (
-				2999A85F2804029100372676 /* GoogleService-Info-4.plist */,
+				296AF1B82804C88100BF9574 /* GoogleService-Info.plist */,
 				2953AF8A2803FFEA00396B74 /* corso */,
 				2953AFA12803FFEB00396B74 /* corsoTests */,
 				2953AFAB2803FFEB00396B74 /* corsoUITests */,
@@ -132,7 +134,8 @@
 				2953AF942803FFEB00396B74 /* Assets.xcassets */,
 				2953AF962803FFEB00396B74 /* LaunchScreen.storyboard */,
 				2953AF992803FFEB00396B74 /* Info.plist */,
-				296AF1B12804AD8A00BF9574 /* TwitterAPI.swift */,
+				296AF1C62804EEFA00BF9574 /* NewsFeed.swift */,
+				296AF1CA2804EF9A00BF9574 /* Article.swift */,
 			);
 			path = corso;
 			sourceTree = "<group>";
@@ -290,8 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2999A8602804029100372676 /* GoogleService-Info-4.plist in Resources */,
 				2953AF982803FFEB00396B74 /* LaunchScreen.storyboard in Resources */,
+				296AF1B92804C88100BF9574 /* GoogleService-Info.plist in Resources */,
 				2953AF952803FFEB00396B74 /* Assets.xcassets in Resources */,
 				2953AF932803FFEA00396B74 /* Main.storyboard in Resources */,
 			);
@@ -301,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2999A8612804029100372676 /* GoogleService-Info-4.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +311,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2999A8622804029100372676 /* GoogleService-Info-4.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296AF1B22804AD8A00BF9574 /* TwitterAPI.swift in Sources */,
 				2953AF902803FFEA00396B74 /* ViewController.swift in Sources */,
 				2953AF8C2803FFEA00396B74 /* AppDelegate.swift in Sources */,
+				296AF1C72804EEFA00BF9574 /* NewsFeed.swift in Sources */,
 				2953AF8E2803FFEA00396B74 /* SceneDelegate.swift in Sources */,
+				296AF1CB2804EF9A00BF9574 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +436,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296AF1B32804AD8A00BF9574 /* TwitterAPI.swift in Sources */,
+				296AF1C82804EEFA00BF9574 /* NewsFeed.swift in Sources */,
 				2953AFA32803FFEB00396B74 /* corsoTests.swift in Sources */,
+				296AF1CC2804EF9A00BF9574 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +446,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296AF1CD2804EF9A00BF9574 /* Article.swift in Sources */,
+				296AF1C92804EEFA00BF9574 /* NewsFeed.swift in Sources */,
 				2953AFAD2803FFEB00396B74 /* corsoUITests.swift in Sources */,
-				296AF1B42804AD8A00BF9574 /* TwitterAPI.swift in Sources */,
 				2953AFAF2803FFEB00396B74 /* corsoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

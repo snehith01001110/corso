@@ -135,6 +135,7 @@ static FIRApp *sDefaultApp;
                        kPlistURL];
   }
   [FIRApp configureWithOptions:options];
+    
 }
 
 + (void)configureWithOptions:(FIROptions *)options {
