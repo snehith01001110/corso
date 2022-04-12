@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        /*
         let db = Firestore.firestore()
         
         db.collection("News").document("Articles").setData([
@@ -37,9 +38,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
 
-        
+        */
         return true
     }
+    
+    
+    
 
     // MARK: UISceneSession Lifecycle
 

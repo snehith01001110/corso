@@ -11,16 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        //hit the api endpoint
-        
-        let urlString = "https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=63098e130bae47bc9d303239b06f4084"
+
+        let urlString = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=63098e130bae47bc9d303239b06f4084"
         let url = URL(string: urlString)
         
-        guard url != nil else{
-            return
-        }
+
         
         let session = URLSession.shared
         
@@ -42,8 +37,9 @@ class ViewController: UIViewController {
         
         
 
-        }
-    dataTask.resume()
+            }
+            dataTask.resume()
+        
 
 
     }
